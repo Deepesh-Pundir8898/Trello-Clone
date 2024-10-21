@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Noto Sans","Ubuntu","Droid Sans","Helvetica Neue",sans-serif;
+}
+body{
+  background-color: #5d5aed;
+ 
+}
+.cards-list-container {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+  
+}
+header{
+  font-size: 1.5rem;
+  font-weight: 550;
+  background-color: #5a5cdb;
+  text-align: center;
+  padding: 0.5rem;
+  color: #adafed;
+  box-shadow: 0 2px 1px  rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 100;
+}
